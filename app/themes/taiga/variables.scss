@@ -65,10 +65,10 @@ $card-hover: #3A3822;
 $card-dark: #4A4832;
 
 $tribe-primary: #2DB5CA;
-$tribe-secondary: lighten($tribe-primary, 10%);
+$tribe-secondary: #4FC9DA;
 
 $top-icon-color: #E0F0EB;
-$dropdown-color: rgba(lighten($grayer, 20%), 1);
+$dropdown-color: rgba(darken($grayer, 20%), 1);
 $code-bg: #1E1F1C;
 
 $highlight: #4A5020;
