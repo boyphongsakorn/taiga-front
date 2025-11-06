@@ -10,13 +10,11 @@
 }
 
 html {
-    background-color: $color-gray100;
     min-height: 100%;
     width: 100%;
 }
 body {
     @include font-type(regular);
-    background-color: $color-gray100;
     line-height: 1.25;
     min-height: 100%;
     overflow-x: hidden;
