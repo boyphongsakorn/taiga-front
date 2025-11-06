@@ -20,7 +20,8 @@
     "test": "./node_modules/karma/bin/karma start",
     "e2e": "./node_modules/.bin/babel-node run-e2e.js",
     "start": "npx gulp",
-    "ci:test": "npx gulp deploy && ./node_modules/karma/bin/karma start --single-run --browsers=ChromeHeadlessCI"
+    "ci:test": "npx gulp deploy && ./node_modules/karma/bin/karma start --single-run --browsers=ChromeHeadlessCI",
+    "compilethemes": "npx gulp compile-themes"
   },
   "devDependencies": {
     "angular-mocks": "1.5.5",
