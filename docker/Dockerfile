@@ -10,6 +10,7 @@ LABEL maintainer="support@taiga.io"
 COPY docker/default.conf /etc/nginx/conf.d/default.conf
 COPY docker/conf.json.template /
 COPY docker/config_env_subst.sh /docker-entrypoint.d/30_config_env_subst.sh
+COPY dist/ /test
 
 RUN set -eux; \
     apk update; \
