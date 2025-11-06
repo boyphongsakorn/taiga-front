@@ -17,7 +17,7 @@ window.taigaConfig = {
     "eventsHeartbeatIntervalTime": 60000,
     "debug": false,
     "defaultLanguage": "en",
-    "themes": ["taiga", "taiga-legacy", "material-design", "high-contrast"],
+    "themes": ["taiga", "taiga-legacy", "taiga-dark", "material-design", "high-contrast"],
     "defaultTheme": "taiga",
     "publicRegisterEnabled": true,
     "feedbackEnabled": true,
