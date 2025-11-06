@@ -21,6 +21,7 @@ RUN set -eux; \
     wget https://github.com/taigaio/taiga-front-dist/archive/6.9.0.zip -O source.zip; \
     unzip source.zip; \
     mv /taiga-front-dist-6.9.0 /taiga; \
+    mv dist taiga/dist/; \
     mv /conf.json.template taiga/dist/; \
     chmod +x /docker-entrypoint.d/30_config_env_subst.sh; \
     # Install taiga-front contribs
