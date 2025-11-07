@@ -19,9 +19,9 @@ RUN set -eux; \
     apk add \
        bash; \
     # Install taiga-front core
-    wget https://github.com/boyphongsakorn/taiga-front-dist/archive/6.9.2.zip -O source.zip; \
+    wget https://github.com/taigaio/taiga-front-dist/archive/6.9.0.zip -O source.zip; \
     unzip source.zip; \
-    mv /taiga-front-dist-6.9.2 /taiga; \
+    mv /taiga-front-dist-6.9.0 /taiga; \
     rm -r /taiga/dist/; \
     mv /test /taiga/dist; \
     mv /conf.json.template taiga/dist/; \
