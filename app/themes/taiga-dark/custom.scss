@@ -120,4 +120,10 @@ textarea {
     .us-item-row.gu-transit {
         background-color: $color-gray100;
     }
+    // Fix black text that is invisible on dark backgrounds
+    .points {
+        .not-clickable:hover {
+            color: $whitish;
+        }
+    }
 }
