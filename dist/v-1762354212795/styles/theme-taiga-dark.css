@@ -21614,3 +21614,5 @@ tg-card .card-title span:last-child {
 **** VERTICAL HEIGHT
 ***********************/
 /* Do not use this except for the main layout */
+body {
+  background-color: #16171D; }
