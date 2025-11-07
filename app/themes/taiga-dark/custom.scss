@@ -2,3 +2,108 @@
 body {
     background-color: $color-gray100;
 }
+
+// Fix white backgrounds for dark theme
+// Kanban layout
+.kanban {
+    &.swimlane {
+        .kanban-header {
+            background: $color-gray100;
+        }
+    }
+}
+
+.kanban-header {
+    background: $color-gray100;
+}
+
+// Taskboard layout
+.taskboard-header {
+    background: $color-gray100;
+}
+
+// Backlog layout
+.backlog-filter {
+    background-color: $color-gray100;
+}
+
+.backlog-top {
+    background-color: $color-gray100;
+}
+
+// Card components
+.card {
+    background-color: $color-gray100;
+}
+
+.card-inner {
+    background: $color-gray100;
+}
+
+.card-assigned-to {
+    img,
+    .extra-assigned {
+        border-color: $color-gray100;
+    }
+}
+
+.card-slideshow {
+    .slideshow-left,
+    .slideshow-right {
+        background: rgba($color-gray100, .3);
+    }
+}
+
+// Card placeholder
+.card-placeholder:not(.not-found) {
+    .placeholder-board-card {
+        background: $color-gray100;
+    }
+}
+
+// Issues table
+.issues-table {
+    .options {
+        background-color: $color-gray100;
+    }
+}
+
+// Kanban table
+.kanban-table-header {
+    background: $color-gray100;
+}
+
+.kanban-swimlane-title {
+    background: $color-gray100;
+    border-bottom-color: $color-gray100;
+}
+
+.kanban-table-body {
+    .taskboard-column {
+        &.target-drop {
+            .ammount {
+                background-color: $color-gray100;
+            }
+        }
+    }
+}
+
+// Taskboard table
+.taskboard-table {
+    .task-colum-name {
+        &:first-child {
+            background-color: $color-gray100;
+        }
+    }
+}
+
+// Backlog table
+.backlog-table-header {
+    background-color: $color-gray100;
+}
+
+.backlog-table-body {
+    .us-item-row.gu-transit {
+        background-color: $color-gray100;
+    }
+}
