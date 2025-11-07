@@ -137,3 +137,10 @@ textarea {
 label {
     color: $whitish;
 }
+
+// Taskboard table
+.taskboard-table-body {
+    .taskboard-cards-box {
+        background: $grey-30;
+    }
+}
