@@ -127,7 +127,7 @@
 }
 
 .backlog-table-header {
-    background-color: $white;
+    background-color: $color-gray100;
     position: sticky;
     // backlog-top.height
     top: 115px;
@@ -233,7 +233,7 @@
 
 .backlog-table-body {
     .us-item-row.gu-transit {
-        background-color: $white;
+        background-color: $color-gray100;
         border: 0;
         border-top: 2px dashed $color-solid-primary;
         height: 0;
