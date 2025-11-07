@@ -117,6 +117,7 @@ jobs:
         id: docker-tag
         run: |
           BRANCH_NAME="${GITHUB_REF#refs/heads/}"
+          echo $BRANCH_NAME
           if [[ "$BRANCH_NAME" == copilot/* ]]; then
             echo "tag=copilot" >> $GITHUB_OUTPUT
           else
