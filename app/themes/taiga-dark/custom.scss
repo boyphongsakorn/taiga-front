@@ -3,6 +3,28 @@ body {
     background-color: $color-gray100;
 }
 
+// Fix white input backgrounds for dark theme
+input[type='text'],
+input[type='number'],
+input[type='password'],
+input[type='url'],
+input[type='email'],
+input[type='date'],
+input[type='search'],
+select,
+textarea {
+    background: $color-gray300;
+    color: $color-black900;
+
+    @include placeholder {
+        color: $color-gray800;
+    }
+}
+
+.custom-checkbox {
+    background-color: $color-gray300;
+}
+
 // Fix white backgrounds for dark theme
 // Kanban layout
 .kanban-header {
