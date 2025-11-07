@@ -164,3 +164,22 @@ tg-project-menu {
         background: $mass-dark;
     }
 }
+
+// Fix black text that is invisible on dark backgrounds  
+.backlog-table-body {
+    .points {
+        .not-clickable:hover {
+            color: $whitish;
+        }
+    }
+}
+
+// Ensure tags have white text on dark backgrounds
+.tag {
+    color: $white;
+}
+
+// Ensure HTML label elements are visible on dark backgrounds
+label {
+    color: $whitish;
+}
