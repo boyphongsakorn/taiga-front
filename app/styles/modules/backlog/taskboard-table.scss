@@ -179,7 +179,7 @@ tg-card[type='task'].folded-dragging {
         text-transform: uppercase;
         width: 100%;
         &:first-child {
-            background-color: $white;
+            background-color: $color-gray100;
         }
         &:last-child {
             margin-right: 0;
