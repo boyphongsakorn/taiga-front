@@ -173,3 +173,8 @@ tg-project-menu {
         }
     }
 }
+
+// Ensure tags have white text on dark backgrounds
+.tag {
+    color: $white;
+}
