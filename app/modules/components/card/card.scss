@@ -5,7 +5,7 @@ $iocaine: #b400d1;
 /* stylelint-enable color-no-hex */
 
 .card {
-    background-color: $color-gray100;
+    background-color: $color-white;
     border-radius: 4px;
     box-shadow: 4px 4px 8px rgba($color-gray400, .5);
     contain: content;
@@ -35,7 +35,7 @@ $iocaine: #b400d1;
 }
 
 .card-inner {
-    background: $color-gray100;
+    background: $color-white;
     border-radius: .25rem;
     padding: 1rem 0 .75rem 0;
 
@@ -313,7 +313,7 @@ $iocaine: #b400d1;
 
     img,
     .extra-assigned {
-        border: 2px solid $color-gray100;
+        border: 2px solid $color-white;
         border-radius: 15px;
         display: flex;
         height: 30px;
@@ -575,7 +575,7 @@ $iocaine: #b400d1;
     .slideshow-left,
     .slideshow-right {
         align-items: center;
-        background: rgba($color-gray100, .3);
+        background: rgba($color-white, .3);
         height: 24px;
         justify-content: center;
         transition: background .2s;

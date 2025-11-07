@@ -115,7 +115,7 @@ body {
 }
 
 .kanban-table-header {
-    background: $color-gray100;
+    background: $color-white;
     flex-basis: 2.75rem;
     min-height: 2.75rem;
     position: relative;
@@ -248,7 +248,7 @@ body {
             background-color: $color-gray400;
 
             .ammount {
-                background-color: $color-gray100;
+                background-color: $white;
             }
         }
 
@@ -413,9 +413,9 @@ body {
 
 .kanban-swimlane-title {
     align-items: center;
-    background: $color-gray100;
+    background: $color-white;
     border: 1px solid transparent;
-    border-bottom: solid 1px $color-gray100;
+    border-bottom: solid 1px $color-white;
     display: flex;
     max-width: var(--kanban-width);
     padding: .625rem 1rem;
