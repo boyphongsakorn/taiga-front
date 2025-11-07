@@ -10,7 +10,8 @@
     "defaultLanguage": "en",
     "themes": [
         "taiga",
-        "taiga-dark"
+        "taiga-dark",
+        "taiga-dark-2"
     ],
     "defaultTheme": "taiga",
     "defaultLoginEnabled": true,

@@ -1,0 +1,174 @@
+//*************************
+//** COLORS
+//************************
+
+// Colors
+$black: #000;
+$blackish: #050505;
+$darker: #111;
+$dark: #222;
+$darkish: #333;
+$grayer: #444;
+$gray: #555;
+$gray-light: #767676;
+$gray-lighter: #B8B8B8;
+$whitish: #e4e3e3;
+$white: #fff;
+
+// Mass dark
+$mass-dark: #353535;
+
+// Primary colors
+$primary-light: #9dce0a;
+$primary-lighter: #EFF3E3;
+$primary: #5b8200;
+$primary-dark: #272f28;
+$primary-background: #2e561f;
+
+$secondary-dark: #718377;
+
+//Status colors
+$green-light: #D1DFC5;
+$red-light: #FF8082;
+$red: #f00;
+$my-sin: #fcaf3e;
+$yellow-green: #9dce0a;
+
+//Card color
+$card: #7f5d00;
+$card-hover: #433713;
+$card-dark: #18140b;
+
+$green-japanese-laurel: #237400;
+$green-olive: #618000;
+$red-amaranth: #e43050;
+$purple-eggplant: #810061;
+$yellow-pear: #bbe831;
+
+$tribe-primary: #107a8a;
+$tribe-secondary: darken($tribe-primary, 10%);
+
+$top-icon-color: #11241f;
+$dropdown-color: rgba(darken($grayer, 20%), 1);
+$code-bg: #272822;
+
+//************************
+//** COLORS - DARK THEME
+//************************
+
+$primary: #2DD4B4;
+$primary-75: #5CBAA9;
+$primary-50: #3A8A7A;
+$primary-25: #2A5F54;
+$primary-10: #1A3F36;
+
+$secondary: #C4E045;
+$secondary-75: #BDD65A;
+$secondary-50: #8AA030;
+$secondary-25: #5A6820;
+
+$tertiary: #565668;
+
+$red:  #FF6B6B;
+$red-25: #B34848;
+$red-10: #6B2828;
+
+$grey-02: #16171D;
+$grey-05: #1E1F27;
+$grey-10: #272833;
+$grey-20: #2F3040;
+$grey-30: #3B3D52;
+$grey-40: #4F5169;
+$grey-50: #70728F;
+$grey-60: #8D8EA5;
+$grey-70: #A9AABC;
+$grey-80: #C6C6D4;
+$grey-90: #E2E3E9;
+
+
+// Color aliases for dark theme
+$black: #000;
+$blackish: $grey-02;
+$grayer: $grey-30;
+$gray: $grey-40;
+$gray-light: $grey-50;
+$gray-lighter: $grey-70;
+$whitish: $grey-90;
+$mass-white: $grey-90;
+$white: #fff;
+
+// Primary colors
+$primary-light: $primary-75;
+$primary-lighter: $primary-10;
+$primary-dark: $primary-50;
+$primary-background: $primary-25;
+
+// Secondary colors
+$secondary-light: $secondary-50;
+$secondary-dark: #B8D055;
+
+//Status colors
+$green-light: #3A4D2E;
+$red-light: darken($red, 8%);
+$my-sin: #D89520;
+$yellow-green: #B5E82C;
+
+//Card color
+$card: #2A2816;
+$card-hover: #3A3822;
+$card-dark: #4A4832;
+
+$tribe-primary: #2DB5CA;
+$tribe-secondary: darken($tribe-primary, 10%);
+
+$top-icon-color: #E0F0EB;
+$dropdown-color: rgba(darken($grayer, 20%), 1);
+$code-bg: #1E1F1C;
+
+$highlight: #4A5020;
+
+// TAIGA 6
+
+// Primary colors
+$color-solid-primary: #2DD4B4;
+$color-link-primary: #4DB8D4;
+$color-link-tertiary: #8D8EA5;
+
+// Grayscale
+$color-gray100: #16171D;
+$color-gray200: #1E1F27;
+$color-gray300: #272833;
+$color-gray400: #2F3040;
+$color-gray800: #A0A3BA;
+
+$color-black600: #B3B6C5;
+$color-black700: #C3C6D1;
+$color-black800: #D3D5DD;
+$color-black900: #E3E5EA;
+
+// State colors
+$color-link-red: #FF6B6B;
+$color-link-orange: #FF8E5F;
+$color-link-yellow: #FFD670;
+$color-link-green: #A5D675;
+$color-link-purple: #D896CF;
+
+// State colors
+$color-solid-red: rgba($color-link-red, .25);
+$color-solid-orange: rgba($color-link-orange, .25);
+$color-solid-yellow: rgba($color-link-yellow, .25);
+$color-solid-green: rgba($color-link-green, .25);
+$color-solid-purple: rgba($color-link-purple, .25);
+
+$color-white: #FFFFFF;
+$color-black: #000000;
+
+//Helpers
+$default-tags: #565668;
+
+//Loading colors
+$loading-color-1: #a8e440;
+$loading-color-2: #e4ce40;
+$loading-color-3: #e47c40;
+$loading-color-4: #e44057;
+$loading-color-5: #6a7aff;

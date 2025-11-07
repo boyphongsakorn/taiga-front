@@ -10,7 +10,7 @@
 (function() {
   var loadApp, loadJS, loadPlugin, loadPlugins, loadStylesheet, mainLoad, promise;
 
-  window._version = "v-1762354212795";
+  window._version = "v-1762487738462";
 
   window.taigaConfig = {
     "api": "http://localhost:8000/api/v1/",
@@ -21,7 +21,7 @@
     "eventsHeartbeatIntervalTime": 60000,
     "debug": false,
     "defaultLanguage": "en",
-    "themes": ["taiga", "taiga-legacy", "material-design", "high-contrast"],
+    "themes": ["taiga", "taiga-legacy", "taiga-dark", "taiga-dark-2", "material-design", "high-contrast"],
     "defaultTheme": "taiga",
     "publicRegisterEnabled": true,
     "feedbackEnabled": true,
