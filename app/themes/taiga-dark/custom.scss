@@ -132,3 +132,8 @@ textarea {
 .tag {
     color: $white;
 }
+
+// Ensure HTML label elements are visible on dark backgrounds
+label {
+    color: $whitish;
+}
