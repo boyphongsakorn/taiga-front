@@ -117,11 +117,10 @@ jobs:
         id: docker-tag
         run: |
           BRANCH_NAME="${GITHUB_REF#refs/heads/}"
-          echo $BRANCH_NAME
-          if [[ "$BRANCH_NAME" == copilot/* ]]; then
-            echo "tag=copilot" >> $GITHUB_OUTPUT
+          if [[ "$BRANCH_NAME" == main ]]; then
+            echo "tag=main" >> $GITHUB_OUTPUT
           else
-            echo "tag=${BRANCH_NAME//\//-}" >> $GITHUB_OUTPUT
+            echo "tag=beta" >> $GITHUB_OUTPUT
           fi
 
       # Login against a Docker registry except on PR
