@@ -145,3 +145,8 @@ label {
         background: $grey-30;
     }
 }
+
+// Fix track-button active state text contrast
+.track-button.active .track-inner {
+    color: $color-black;
+}
