@@ -22,7 +22,7 @@
     "start": "npx gulp",
     "ci:test": "npx gulp deploy && ./node_modules/karma/bin/karma start --single-run --browsers=ChromeHeadlessCI",
     "compilethemes": "npx gulp compile-themes",
-    "build": "npx gulp deploy"
+    "build": "rm -r dist && npx gulp deploy"
   },
   "devDependencies": {
     "angular-mocks": "1.5.5",
