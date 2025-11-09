@@ -1,0 +1,157 @@
+// Green theme background colors
+body {
+    background-color: $color-gray100;
+    color: $gray-lighter;
+}
+
+// Fix white input backgrounds for green theme
+input[type='text'],
+input[type='number'],
+input[type='password'],
+input[type='url'],
+input[type='email'],
+input[type='date'],
+input[type='search'],
+select,
+textarea {
+    background: $color-gray300;
+    color: $color-black900;
+
+    @include placeholder {
+        color: $color-gray800;
+    }
+}
+
+.custom-checkbox {
+    background-color: $color-gray300;
+}
+
+// Fix white backgrounds for green theme
+// Kanban layout
+.kanban-header {
+    background: $color-gray100;
+}
+
+// Taskboard layout
+.taskboard-header {
+    background: $color-gray100;
+}
+
+// Backlog layout
+.backlog-filter {
+    background-color: $color-gray100;
+}
+
+.backlog-top {
+    background-color: $color-gray100;
+}
+
+// Card components
+.card {
+    background-color: $color-gray100;
+}
+
+// Home project cards
+.home-project {
+    background-color: $color-gray100;
+}
+
+.card-inner {
+    background: $color-gray100;
+}
+
+.card-assigned-to {
+    img,
+    .extra-assigned {
+        border-color: $color-gray100;
+    }
+}
+
+.card-slideshow {
+    .slideshow-left,
+    .slideshow-right {
+        background: rgba($color-gray100, .3);
+    }
+}
+
+// Card placeholder
+.card-placeholder:not(.not-found) {
+    .placeholder-board-card {
+        background: $color-gray100;
+    }
+}
+
+// Issues table
+.issues-table {
+    .options {
+        background-color: $color-gray100;
+    }
+}
+
+// Kanban table
+.kanban-table-header {
+    background: $color-gray100;
+}
+
+.kanban-swimlane-title {
+    background: $color-gray100;
+    border-bottom-color: $color-gray100;
+}
+
+.kanban-table-body {
+    .taskboard-column {
+        &.target-drop {
+            .ammount {
+                background-color: $color-gray100;
+            }
+        }
+    }
+}
+
+// Taskboard table
+.taskboard-table {
+    .task-colum-name {
+        &:first-child {
+            background-color: $color-gray100;
+        }
+    }
+}
+
+// Backlog table
+.backlog-table-header {
+    background-color: $color-gray100;
+}
+
+.backlog-table-body {
+    .us-item-row.gu-transit {
+        background-color: $color-gray100;
+    }
+    // Fix black text that is invisible on dark backgrounds
+    .points {
+        .not-clickable:hover {
+            color: $whitish;
+        }
+    }
+}
+
+// Ensure tags have white text on dark backgrounds
+.tag {
+    color: $white;
+}
+
+// Ensure HTML label elements are visible on dark backgrounds
+label {
+    color: $whitish;
+}
+
+// Taskboard table
+.taskboard-table-body {
+    .taskboard-cards-box {
+        background: $grey-30;
+    }
+}
+
+// Fix track-button active state text contrast
+.track-button.active .track-inner {
+    color: $color-black;
+}

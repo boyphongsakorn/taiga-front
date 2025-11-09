@@ -1,0 +1,120 @@
+//************************
+//** COLORS - GREEN THEME
+//************************
+
+$primary: #27AE60;
+$primary-75: #52BE80;
+$primary-50: #1E8449;
+$primary-25: #186A3B;
+$primary-10: #0F4229;
+
+$secondary: #E74C3C;
+$secondary-75: #EC7063;
+$secondary-50: #C0392B;
+$secondary-25: #922B21;
+
+$tertiary: #4C936A;
+
+$red:  #FF6B6B;
+$red-25: #B34848;
+$red-10: #6B2828;
+
+$grey-02: #0F1A14;
+$grey-05: #142218;
+$grey-10: #1A2A1E;
+$grey-20: #223427;
+$grey-30: #2C4234;
+$grey-40: #3A5544;
+$grey-50: #5A7360;
+$grey-60: #748D7A;
+$grey-70: #95A99A;
+$grey-80: #B7C5B9;
+$grey-90: #D9E1DA;
+
+
+// Color aliases for dark theme
+$black: #000;
+$blackish: $grey-02;
+$grayer: $grey-30;
+$gray: $grey-40;
+$gray-light: $grey-50;
+$gray-lighter: $grey-70;
+$whitish: $grey-90;
+$mass-white: $grey-90;
+$white: #fff;
+
+// Primary colors
+$primary-light: $primary-75;
+$primary-lighter: $primary-10;
+$primary-dark: $primary-50;
+$primary-background: $primary-25;
+
+// Secondary colors
+$secondary-light: $secondary-50;
+$secondary-dark: #D35400;
+
+//Status colors
+$green-light: #2E4D3A;
+$red-light: darken($red, 8%);
+$my-sin: #D89520;
+$yellow-green: #B5E82C;
+
+//Card color
+$card: #1A2A1E;
+$card-hover: #2A3A2E;
+$card-dark: #3A4A3E;
+
+$tribe-primary: #27AE60;
+$tribe-secondary: darken($tribe-primary, 10%);
+
+$top-icon-color: #D7F0E0;
+$dropdown-color: rgba(darken($grayer, 20%), 1);
+$code-bg: #1C231E;
+
+$highlight: #2A5040;
+
+// TAIGA 6
+
+// Primary colors
+$color-solid-primary: #27AE60;
+$color-link-primary: #52BE80;
+$color-link-tertiary: #748D7A;
+
+// Grayscale
+$color-gray100: #0F1A14;
+$color-gray200: #142218;
+$color-gray300: #1A2A1E;
+$color-gray400: #223427;
+$color-gray800: #9BAA9F;
+
+$color-black600: #B3B6C5;
+$color-black700: #C3C6D1;
+$color-black800: #D3D5DD;
+$color-black900: #E3E5EA;
+
+// State colors
+$color-link-red: #E74C3C;
+$color-link-orange: #E67E22;
+$color-link-yellow: #F1C40F;
+$color-link-green: #52BE80;
+$color-link-purple: #A896D8;
+
+// State colors
+$color-solid-red: rgba($color-link-red, .25);
+$color-solid-orange: rgba($color-link-orange, .25);
+$color-solid-yellow: rgba($color-link-yellow, .25);
+$color-solid-green: rgba($color-link-green, .25);
+$color-solid-purple: rgba($color-link-purple, .25);
+
+$color-white: #FFFFFF;
+$color-black: #000000;
+
+//Helpers
+$default-tags: #4C936A;
+
+//Loading colors
+$loading-color-1: #27AE60;
+$loading-color-2: #52BE80;
+$loading-color-3: #7DCEA0;
+$loading-color-4: #E74C3C;
+$loading-color-5: #1E8449;
