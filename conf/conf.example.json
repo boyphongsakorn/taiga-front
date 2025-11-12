@@ -12,7 +12,8 @@
         "taiga",
         "taiga-dark",
         "taiga-dark-2",
-        "taiga-purple"
+        "taiga-purple",
+        "taiga-green"
     ],
     "defaultTheme": "taiga",
     "defaultLoginEnabled": true,
